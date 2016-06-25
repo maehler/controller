@@ -13,7 +13,7 @@
 
 # Feel free to change the variables in this section to configure your keyboard
 
-BuildPath="ICED-L"
+BuildPath="ergodox-L"
 
 ## KLL Configuration ##
 
@@ -23,7 +23,7 @@ BaseMap="defaultMap leftHand slave1 rightHand"
 # This is the default layer of the keyboard
 # NOTE: To combine kll files into a single layout, separate them by spaces
 # e.g.  DefaultMap="mylayout mylayoutmod"
-DefaultMap="mdergo1Overlay lcdFuncMap"
+DefaultMap="my_ergodox_layout lcdFuncMap"
 
 # This is where you set the additional layers
 # NOTE: Indexing starts at 1
@@ -31,8 +31,12 @@ DefaultMap="mdergo1Overlay lcdFuncMap"
 # e.g.  PartialMaps[1]="layer1 layer1mod"
 #       PartialMaps[2]="layer2"
 #       PartialMaps[3]="layer3"
-PartialMaps[1]="iced_func"
-PartialMaps[2]="iced_numpad"
+PartialMaps[1]="ergodox_func1 lcdFuncMap"
+PartialMaps[2]="my_ergodox_numpad lcdFuncMap"
+PartialMaps[3]="swedish_ergodox lcdFuncMap"
+PartialMaps[4]="gaming_ergodox lcdFuncMap"
+PartialMaps[5]="windows_ergodox lcdFuncMap"
+PartialMaps[6]="gaming_ergodox_func lcdFuncMap"
 
 
 
@@ -83,7 +87,7 @@ source cmake.bash
 
 # Feel free to change the variables in this section to configure your keyboard
 
-BuildPath="ICED-R"
+BuildPath="ergodox-R"
 
 ## KLL Configuration ##
 
